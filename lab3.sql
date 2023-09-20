@@ -38,3 +38,6 @@ delete from professor
 where p_email = 'p1@jmu.edu'
 -- you need to update the course before you delete the professor. if you try and delete the professor first, there will be an error because the code won't 
 -- recognize the professor's email if it's already been deleted
+
+--q2.7
+select * from enroll
